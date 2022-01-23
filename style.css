@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all, .box, .formClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    width: 100%;
+    height: 937px;
+    background-color: rgb(84, 207, 27);
+}
+.box{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(216, 5, 5);
+    border-radius: 10px;
+}
+.formClass{
+    width: 90%;
+    height: 90%;
+    flex-wrap: wrap;
+}
+.cl{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(231, 192, 15);
+    border-radius: 10px;
+}
+.button{
+    background-color: rgb(84, 207, 27);
+}
